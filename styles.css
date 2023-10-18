@@ -1,0 +1,33 @@
+.assign {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: green;
+}
+
+.assign img {
+    width: 200px;
+    padding: 10px;
+}
+
+body {
+    background: yellow;
+    font-family: cursive;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+.assign {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(2, 162, 255);
+}
+
+.assign img {
+    width: 200px;
+    padding: 10px;
+}
