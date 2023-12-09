@@ -1,33 +1,41 @@
-.assign {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    background: green;
-}
-
-.assign img {
-    width: 200px;
-    padding: 10px;
-}
-
 body {
-    background: yellow;
+    background-color: #424242;
     font-family: cursive;
-}
-
-h1 {
-    color: green;
-    text-align: center;
-}
-
-.assign {
     display: flex;
-    padding: 10px;
-    margin: 10px;
-    background: rgb(2, 162, 255);
+    flex-wrap: wrap;
 }
-
+h1 {
+    color: maroon;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+h1:hover {
+    color: hotpink;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.assign {
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+	display: block;
+    width: 20%;
+    box-shadow: 8px 8px brown;
+}
 .assign img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 2px solid midnightblue;
+}
+.assign img:hover {
+    width: 200px;
+    margin: 10px;
+    border: 2px dotted rgb(64, 0, 255);
 }
